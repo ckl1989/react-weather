@@ -1,31 +1,10 @@
-# ReduxSimpleStarter
+# React Weather App from [Tutorial](https://www.udemy.com/react-redux/)
+A weather application where users can input United States cities and see Weather information for those cities.
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
-
-
-users:
--redux promise - wait for promise to resolve before sending it to reducer {does it do it just automatically?}
--react redux connect
--google maps integration
+Included Libraries:
+-axios - easy api to make AJAX calls
+-redux-promise - handles promises and waits for them to resolve before sending the resolved data to the reducer 
+-react-redux connect() - promotes a normal react component to be a container that is connected to Redux
+-google maps api - to display an embedded google map widget for each inputted city
+-Sparklines - chart component to display the data trends
+-open weather - public api to get weather data from a search input
