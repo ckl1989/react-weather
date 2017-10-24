@@ -23,3 +23,9 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 > npm install
 > npm start
 ```
+
+
+users:
+-redux promise - wait for promise to resolve before sending it to reducer {does it do it just automatically?}
+-react redux connect
+-google maps integration
